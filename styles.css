@@ -192,7 +192,7 @@ footer {
 .bottom-nav a {
     color: var(--text-white);
     text-decoration: none;
-    font-size: 0.85rem; /* Makes the font smaller than your main text */
+    font-size: 0.75rem; /* Makes the font smaller than your main text */
     text-transform: uppercase; /* Optional: Looks clean for small navigation */
     letter-spacing: 1px;
     transition: color 0.3s ease;
