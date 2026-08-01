@@ -178,3 +178,26 @@ footer {
     font-family: inherit;
 }
 
+/* --- Bottom Navigation Styles --- */
+.bottom-nav {
+    display: flex;
+    justify-content: center; /* Centers the links */
+    gap: 20px; /* Space between the links */
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    border-top: 1px solid var(--accent-red); /* Adds a subtle line above the links */
+}
+
+.bottom-nav a {
+    color: var(--text-white);
+    text-decoration: none;
+    font-size: 0.85rem; /* Makes the font smaller than your main text */
+    text-transform: uppercase; /* Optional: Looks clean for small navigation */
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.bottom-nav a:hover {
+    color: var(--accent-red);
+}
