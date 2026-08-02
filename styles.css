@@ -97,6 +97,14 @@ a:hover {
     border-radius: 8px;
 }
 
+.standard-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+}
+
 .comments-section {
     margin-top: 50px;
     padding-top: 20px;
