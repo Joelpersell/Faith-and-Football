@@ -1,11 +1,11 @@
 /* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 :root {
     --bg-dark-blue: #0A1128;
     --text-white: #FFFFFF;
     --accent-red: #D90429;
     --accent-red-hover: #EF233C;
     --accent-dark-red: #6A0808;
-    @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 }
 
