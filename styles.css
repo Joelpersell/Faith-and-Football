@@ -19,7 +19,8 @@ body {
 }
 
 header {
-    background-color: var(--accent-dark-red);
+    /* Goes from dark red (left), to a lighter red (center), back to dark red (right) */
+    background: linear-gradient(to right, #4A0404, #6A0808, #4A0404);
     text-align: center;
     max-height: 80px;
     padding: 0;
