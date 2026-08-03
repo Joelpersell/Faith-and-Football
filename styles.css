@@ -70,7 +70,7 @@ main {
 }
 
 h1, h2, h3 {
-    color: var(--accent-red);
+    color: var(--text-white);
 }
 
 h4 {
