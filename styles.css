@@ -4,6 +4,7 @@
     --text-white: #FFFFFF;
     --accent-red: #D90429;
     --accent-red-hover: #EF233C;
+    --accent-dark-red: #A50044;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
 }
 
 header {
-    background-color: var(--dark-red);
+    background-color: var(--accent-dark-red);
     text-align: center;
     padding: 0;
     display: flex;
