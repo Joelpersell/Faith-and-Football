@@ -17,9 +17,8 @@ body {
 
 header {
     background-color: var(--accent-red);
-    color: var(--text-white);
     text-align: center;
-    padding: 0;
+    padding: 15px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,6 +67,10 @@ main {
 
 h1, h2, h3 {
     color: var(--accent-red);
+}
+
+h4 {
+    color: var(--text-white);
 }
 
 a {
