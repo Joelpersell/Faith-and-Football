@@ -93,7 +93,7 @@ a:hover {
     height: auto;
     display: block;
     margin: 25px auto;
-    border: 8px solid var(--accent-red);
+    border: 5px solid var(--accent-red);
     border-radius: 8px;
 }
 
