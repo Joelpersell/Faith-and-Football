@@ -60,7 +60,7 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--accent-red-hover);
+    color: var(--text-white);
 }
 
 main {
@@ -83,7 +83,7 @@ h4 {
 }
 
 a {
-    color: var(--accent-red);
+    color: var(--text-white);
     text-decoration: none;
 }
 
@@ -225,7 +225,7 @@ footer {
 }
 
 .bottom-nav a:hover {
-    color: var(--accent-red);
+    color: var(--text-white);
 }
 /* --- Articles List Page Styles --- */
 .articles-container {
@@ -264,6 +264,6 @@ footer {
 }
 
 .article-link:hover {
-    color: var(--accent-red);
+    color: var(--text-white);
 }
 
