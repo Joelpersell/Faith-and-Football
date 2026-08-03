@@ -75,6 +75,8 @@ h4 {
     color: var(--text-white);
     font-size: 2rem;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5); /* Black shadow at 50% opacity */
 }
 
