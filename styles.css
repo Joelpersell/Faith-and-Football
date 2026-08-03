@@ -75,6 +75,7 @@ h4 {
     color: var(--text-white);
     font-size: 2rem;
     font-weight: bold;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5); /* Black shadow at 50% opacity */
 }
 
 a {
