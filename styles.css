@@ -5,6 +5,8 @@
     --accent-red: #D90429;
     --accent-red-hover: #EF233C;
     --accent-dark-red: #6A0808;
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 }
 
 body {
@@ -75,7 +77,7 @@ h4 {
     color: var(--text-white);
     font-size: 2rem;
     font-weight: bold;
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Merriweather', serif;
     font-weight: 700;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5); /* Black shadow at 50% opacity */
 }
