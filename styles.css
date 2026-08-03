@@ -119,14 +119,14 @@ a:hover {
     height: auto;
     display: block;
     margin: 25px auto;
-    border: 2px solid var(--bg-dark-blue);
+    border: 3px solid var(--bg-dark-blue);
     border-radius: 8px;
 }
 
 .comments-section {
     margin-top: 50px;
     padding-top: 20px;
-    border-top: 2px solid var(--accent-red);
+    border-top: 3px solid var(--accent-red);
 }
 
 textarea {
@@ -134,7 +134,7 @@ textarea {
     height: 100px;
     background-color: #121E42;
     color: white;
-    border: 1px solid var(--accent-red);
+    border: 3px solid var(--accent-red);
     padding: 10px;
     margin-bottom: 10px;
     font-family: inherit;
@@ -182,7 +182,7 @@ footer {
 
 .comment-actions button {
     background-color: transparent;
-    border: 1px solid var(--accent-red);
+    border: 3px solid var(--accent-red);
     color: var(--text-white);
     padding: 5px 10px;
     font-size: 0.85rem;
@@ -198,7 +198,7 @@ footer {
     height: 80px;
     background-color: #0A1128;
     color: white;
-    border: 1px solid var(--accent-red);
+    border: 3px solid var(--accent-red);
     padding: 10px;
     margin-bottom: 10px;
     font-family: inherit;
@@ -212,7 +212,7 @@ footer {
     margin-top: 50px;
     margin-bottom: 30px;
     padding-top: 20px;
-    border-top: 1px solid var(--accent-red); /* Adds a subtle line above the links */
+    border-top: 3px solid var(--accent-red); /* Adds a subtle line above the links */
 }
 
 .bottom-nav a {
@@ -241,7 +241,7 @@ footer {
 }
 
 .article-list li {
-    border-bottom: 1px solid var(--accent-red); /* Creates a clean divider between posts */
+    border-bottom: 3px solid var(--accent-red); /* Creates a clean divider between posts */
     padding: 20px 0;
     display: flex;
     flex-direction: column;
