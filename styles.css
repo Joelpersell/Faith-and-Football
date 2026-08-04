@@ -273,7 +273,7 @@ footer {
 
 #searchInput, #categorySelect {
     width: 100%;
-    max-width: 350px;
+    max-width: 300px;
     padding: 12px 15px;
     font-family: 'Segoe UI', sans-serif;
     font-size: 1rem;
@@ -286,7 +286,7 @@ footer {
 /* Adds a slight glow when the user clicks into the search box */
 #searchInput:focus, #categorySelect:focus {
     outline: none;
-    border-color: #A50044;
+    border-color: var(--accent-red);
     box-shadow: 0 0 8px rgba(165, 0, 68, 0.5);
 }
 
