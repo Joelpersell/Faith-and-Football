@@ -20,7 +20,10 @@
 
     <main class="articles-container">
         <h1>All Articles</h1>
-        
+        <div class="search-container">
+    <input type="text" id="searchInput" onkeyup="filterArticles()" placeholder="Search articles by title...">
+</div>
+
         <ul class="article-list">
             <li>
                 <span class="article-date">July 30, 2026</span>
@@ -37,5 +40,27 @@
     <footer>
         <p>&copy; 2026 Faith and Football. All Rights Reserved.</p>
     </footer>
+    <script>
+function filterArticles() {
+    // Get the value the user typed in
+    let input = document.getElementById('searchInput').value.toLowerCase();
+    
+    // Get the list of articles
+    let list = document.querySelector('.article-list');
+    let items = list.getElementsByTagName('li');
+
+    // Loop through all list items, and hide those who don't match the search query
+    for (let i = 0; i < items.length; i++) {
+        let title = items[i].querySelector('.article-link').innerText.toLowerCase();
+        
+        if (title.indexOf(input) > -1) {
+            items[i].style.display = ""; // Shows the item
+        } else {
+            items[i].style.display = "none"; // Hides the item
+        }
+    }
+}
+</script>
+
 </body>
 </html>
