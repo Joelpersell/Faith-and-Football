@@ -277,7 +277,7 @@ footer {
     padding: 12px 15px;
     font-family: 'Segoe UI', sans-serif;
     font-size: 1rem;
-    border: 2px solid #3D0303; /* Uses your subtle shadow dark red */
+    border: 2px solid var(--accent-red); /* Uses your subtle shadow dark red */
     border-radius: 5px;
     background-color: #FFFFFF;
     color: #333333;
