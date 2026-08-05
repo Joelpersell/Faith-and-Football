@@ -124,6 +124,7 @@ a:hover {
 }
 
 .comments-section {
+    display: flex;
     padding: 20px;
     background-color: #050814;
     margin-top: 20px;
